@@ -27,7 +27,7 @@ build: clean ## Build static html
 	@hugo
 
 deploy: build ## Deploy on Github Pages
-	@git add -A
+	@git add .
 	@git commit -m 'modified'
 	@git push origin master
 
