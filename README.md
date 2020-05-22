@@ -13,11 +13,12 @@ hugo new site hugo-novela
 ```shell
 cd hugo-novela
 git init
-echo '*.bak' >> .gitignore
 echo '*~' >> .gitignore
+echo '*.bak' >> .gitignore
 echo '*.orig' >> .gitignore
-echo 'public' >> .gitignore
 echo '.env' >> .gitignore
+echo 'public' >> .gitignor
+echo 'resources' >> .gitignor
 ```
 
 テーマ設定
@@ -66,7 +67,13 @@ git push -u origin master
 * .github/workflows/gh-pages.yamlを作成
     * ソースはmasterブランチ
     * 出力はpublicフォルダの内容をgh-pagesブランチ
-        * Github>Settings>Gighub Pages>Source>gh-pages branch
+
+```shell
+make deploy
+```
+
+* Github>Settings>Gighub Pages>Source>gh-pages branchに設定する
+* しばらく時間がかかる
 
 ## 既存のレポジトリからクローンする場合
 
@@ -83,8 +90,8 @@ git submodule update --init --recursive
 新規投稿
 
 ```shell
-hugo new posts/hello.md
-content/posts/hello.md created
+hugo new post/hello.md
+content/post/hello.md created
 ```
 
 編集

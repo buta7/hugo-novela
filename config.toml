@@ -6,6 +6,8 @@ theme = "hugo-theme-novela"
 [sosial]
   twiteer = "#"
   github = "#"
+  gitlab = "#"
+  bitbucket = "#"
   instagram = "#"
   linkedin = "#"
   dribbble = "#"

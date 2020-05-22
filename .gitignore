@@ -1,5 +1,6 @@
-*.bak
 *~
+*.bak
 *.orig
-public
 .env
+public
+resources
