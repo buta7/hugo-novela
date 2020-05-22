@@ -1,0 +1,18 @@
+baseURL = "https://example.com"
+languageCode = "ja"
+title = "Hugo Novela"
+theme = "hugo-theme-novela"
+
+[sosial]
+  twiteer = "#"
+  github = "#"
+  instagram = "#"
+  linkedin = "#"
+  dribbble = "#"
+  youtube = "#"
+
+[taxonomies]
+  author = "authors"
+
+#[author]
+#  name = "heartfulmoon"
