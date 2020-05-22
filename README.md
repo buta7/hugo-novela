@@ -38,7 +38,7 @@ cp -pr themes/hugo-theme-novela/exampleSite/{content,config.yaml} .
 config.toml
 
 ```toml
-baseURL = "https://example.com"
+baseURL = "https://higebobo.github.io/hugo-novela"
 languageCode = "ja"
 title = "Hugo Novela"
 theme = "hugo-theme-novela"
