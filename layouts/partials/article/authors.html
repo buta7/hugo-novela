@@ -22,7 +22,7 @@
                 {{ range $index, $author := $authors }}
                     {{ with .avatar }}
                         <div class="article-coauthors-avatar" style="left: {{ mul $index 15 }}px;">
-                            <img src="{{ . }}" />
+                            <img src="{{ $baseURL }}{{ . }}" />
                         </div>
                     {{ end }}
                 {{ end }}
@@ -46,7 +46,7 @@
                     <a href="{{ .URL }}" class="article-author-link">
                         {{ with $author.avatar }}
                             <div class="article-coauthor-avatar-open">
-                                <img src="{{ . }}" />
+                                <img src="{{ $baseURL }}{{ . }}" />
                             </div>
                         {{ end }}
                         <strong class="article-author-name-open">{{ .name }}</strong>
