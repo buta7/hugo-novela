@@ -4,17 +4,17 @@ title = "Hugo Novela"
 theme = "hugo-theme-novela"
 
 [sosial]
-  twiteer = "#"
+  #twiteer = "#"
   github = "#"
   gitlab = "#"
   bitbucket = "#"
-  instagram = "#"
-  linkedin = "#"
-  dribbble = "#"
-  youtube = "#"
+  #instagram = "#"
+  #linkedin = "#"
+  #dribbble = "#"
+  #youtube = "#"
 
 [taxonomies]
   author = "authors"
 
-#[author]
-#  name = "heartfulmoon"
+[params]
+  baseURL = "https://higebobo.github.io/hugo-novela"
