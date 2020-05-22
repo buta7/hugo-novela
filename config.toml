@@ -2,6 +2,7 @@ baseURL = "https://higebobo.github.io/hugo-novela"
 languageCode = "ja"
 title = "Hugo Novela"
 theme = "hugo-theme-novela"
+paginate = 4
 
 [sosial]
   #twiteer = "#"
