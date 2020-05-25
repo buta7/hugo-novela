@@ -16,6 +16,9 @@ paginate = 4
 
 [taxonomies]
   author = "authors"
+  #tag = "tags"
+  #category = "categories"
+  #archive = "archives"
 
 [params]
   baseURL = "https://higebobo.github.io/hugo-novela"
