@@ -21,4 +21,4 @@ paginate = 4
   #archive = "archives"
 
 [params]
-  baseURL = "https://higebobo.github.io/hugo-novela"
+  baseURL = "https://buta7.github.io/hugo-novela"
